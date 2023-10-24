@@ -206,11 +206,11 @@ h1, h2, h3, h4, h5, h6 {
 ======================*/
 
 #navigation .navbar {
-  background:rgba(255, 255, 255, 0.952941);
+  background: transparent;
   border-radius: 0;
-  border-bottom: 0;
-  box-shadow: rgba(0, 0, 0, 0.298039) 0px 0px 3px;
+  border-bottom: 0; 
   padding-bottom: 8px;
+  position: absolute;
 }
 
 #navigation .navbar-toggle{
@@ -222,6 +222,8 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0;
   margin: 0;
 }
+
+#navigation .navbar-brand h1 img{width: 50%;}
 
 #navigation .navbar-nav.navbar-right li {
 	padding: 0 1px;
@@ -274,6 +276,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #main-carousel .carousel-inner .item {
+	background-color: #516EB7;
 	background-size:cover;
 	height: 100%;
 	background-position: 50% 50%;
@@ -554,16 +557,11 @@ h1, h2, h3, h4, h5, h6 {
 ======Service CSS=====
 ======================*/
 
-#services {
-   
-  color:#fff;
-  text-align:center;
-  background-color:	#253c46;
+#services { 
+  text-align:center; 
 }
-#strengths {   
-  color:#fff;
-  text-align:center;
-  background-color:	#253c46;
+#strengths {    
+  text-align:center; 
 }
 
 .services, .services1  {
@@ -593,47 +591,15 @@ h1, h2, h3, h4, h5, h6 {
 
 
 .single-service {
-	background-color: rgba(0, 0, 0, 0.39);
+	 
 	padding:25px;
-	transition: all 0.9s ease 0s;
-	-moz-transition: all 0.9s ease 0s;
-	-webkit-transition: all 0.9s ease 0s;
-	-o-transition: all 0.9s ease 0s;
+	 
 }
+.single-service img{width: 100%;}
 
 .single-service p {
-	text-align:justify;
-}
-
-.single-service i {
-	text-align:center;
-	font-size:80px;
-	background-color: #fff;
-	border-radius: 50%;
-	display: inline-block;
-	height: 150px;
-	line-height: 150px;
-	width: 150px;
-	color:#43484E;
-	transition: all 0.9s ease 0s;
-	-moz-transition: all 0.9s ease 0s;
-	-webkit-transition: all 0.9s ease 0s;
-	-o-transition: all 0.9s ease 0s;
-}
-
-.single-service:hover {
-	background-color: #fc7700;
-}
-
-.single-service:hover i {
-	color:#fc7700;
-	-moz-transform: scale(1.1) rotate(360deg);
-	-webkit-transform: scale(1.1) rotate(360deg);
-	-o-transform: scale(1.1) rotate(360deg);
-	-ms-transform: scale(1.1) rotate(360deg);
-	transform: scale(1.1) rotate(360deg);
-}
-
+	 
+}  
 
 /*=====================
 ======Our Team CSS=====
