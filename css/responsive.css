@@ -31,6 +31,20 @@
 	}
 }
 @media (max-width:767px){
+	#main-carousel .carousel-inner .item {
+		background-color: #031123;
+		background-size:875px;
+		height: 550px !important;
+		background-position: 50% 50%;
+		background-repeat:no-repeat;
+		background-image: url(../images/slider/slide1.jpg);
+	}
+
+ 
+#main-carousel .carousel-caption { 
+    padding-bottom: 20%;
+
+}
 	#navigation .navbar-nav.navbar-right{
 		margin-top:0
 	}

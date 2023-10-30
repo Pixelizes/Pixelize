@@ -15,6 +15,7 @@ body {
 
 body  section{
 	padding: 25px 0;
+	font-size: 16px;
 }
 
 a:hover {
@@ -214,18 +215,17 @@ h1, h2, h3, h4, h5, h6 {
 ======================*/
 
 #navigation .navbar {
-  background: transparent;
+  background-color: #040D24;
   border-radius: 0;
   border-bottom: 0; 
-  padding-bottom: 8px;
-  position: absolute;
+  padding-bottom: 0px; 
 }
 
 #navigation .navbar-toggle{
   margin-top: 20px;
   background-color: #333;
 }
-
+#navigation .navbar-brand{padding: 5px;}
 #navigation .navbar-brand h1{
   padding: 0;
   margin: 0;
@@ -238,7 +238,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #navigation .navbar-nav.navbar-right {
-	margin-top:28px
+	margin-top:10px
 }
 
 #navigation .navbar-nav.navbar-right li a {
@@ -289,6 +289,7 @@ h1, h2, h3, h4, h5, h6 {
 	height: 100%;
 	background-position: 50% 50%;
 	background-repeat:no-repeat;
+	background-image: url(../images/slider/slide1.jpg);
 }
 
 #main-carousel .carousel-indicators { 
@@ -1481,3 +1482,9 @@ h1, h2, h3, h4, h5, h6 {
    filter: alpha(opacity=100);
    opacity: 1;
 }
+
+#services-webdesign{background-color: #111; color: #fff;}
+#services-webdesign .title-one{color: #fff;}
+#services-webdesign h2{font-weight: 300;}
+
+
