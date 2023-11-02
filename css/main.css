@@ -1483,8 +1483,16 @@ h1, h2, h3, h4, h5, h6 {
    opacity: 1;
 }
 
-#services-webdesign{background-color: #111; color: #fff;}
-#services-webdesign .title-one{color: #fff;}
-#services-webdesign h2{font-weight: 300;}
+#services-webdesign{background-color: #760000; color: #fff;}
+#services-webdesign .title-one{color: #fff; margin-top: 50px;}
+#services-webdesign h2{font-weight: 300; margin-bottom: 50px;}
+#services-webdesign img{max-width: 100%;}
+
+
+#services-webdev{background-color: #0E5053; color: #fff;}
+#services-webdev .title-one{color: #fff; margin-top: 50px;}
+#services-webdev h2{font-weight: 300; margin-bottom: 50px;}
+#services-webdev img{max-width: 100%;}
+
 
 
